@@ -20,6 +20,6 @@ ALTER TABLE `prefix__sdek_cities`
   ADD KEY `active` (`active`),
   ADD KEY `country` (`country`);
 
-ALTER TABLE `artl2__sdek_cities`
+ALTER TABLE `prefix__sdek_cities`
   MODIFY `id` int(4) NOT NULL AUTO_INCREMENT;
 COMMIT;
